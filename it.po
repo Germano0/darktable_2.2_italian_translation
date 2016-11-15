@@ -688,12 +688,12 @@ msgstr "Intepolatore pixel"
 #: ../build/src/preferences_gen.h:2609
 msgctxt "preferences"
 msgid "bilinear"
-msgstr "bilineare"
+msgstr "Bilineare"
 
 #: ../build/src/preferences_gen.h:2614
 msgctxt "preferences"
 msgid "bicubic"
-msgstr "bicubica"
+msgstr "Bicubica"
 
 #: ../build/src/preferences_gen.h:2619
 msgctxt "preferences"
@@ -1455,10 +1455,8 @@ msgstr ""
 "annullato..."
 
 #: ../src/control/jobs/control_jobs.c:326
-#, fuzzy
 msgid "exposure bracketing only works on raw images."
 msgstr ""
-"Il bracketing d'esposizione funziona solamente nelle immagini raw Bayer"
 
 #: ../src/control/jobs/control_jobs.c:333
 msgid "images have to be of same size and orientation!"
@@ -1619,9 +1617,8 @@ msgid "merge hdr image"
 msgstr "Unisco %d immagine"
 
 #: ../src/control/jobs/control_jobs.c:1340
-#, fuzzy
 msgid "duplicate images"
-msgstr "Duplica immagine"
+msgstr ""
 
 #: ../src/control/jobs/control_jobs.c:1347
 #, fuzzy
@@ -1649,9 +1646,8 @@ msgstr "Rimuovere le immagini?"
 
 #. first get all selected images, to avoid the set changing during ui interaction
 #: ../src/control/jobs/control_jobs.c:1395
-#, fuzzy
 msgid "delete images"
-msgstr "Cancellare le immagini?"
+msgstr ""
 
 # Ricontrollare
 #: ../src/control/jobs/control_jobs.c:1419
@@ -1681,9 +1677,8 @@ msgid "delete images?"
 msgstr "Cancellare le immagini?"
 
 #: ../src/control/jobs/control_jobs.c:1446
-#, fuzzy
 msgid "move images"
-msgstr "Spostare l'immagine?"
+msgstr ""
 
 #: ../src/control/jobs/control_jobs.c:1450
 #: ../src/control/jobs/control_jobs.c:1504 ../src/imageio/storage/disk.c:92
@@ -1721,9 +1716,8 @@ msgstr[0] "Spostare l'immagine?"
 msgstr[1] "Spostare le immagini?"
 
 #: ../src/control/jobs/control_jobs.c:1500
-#, fuzzy
 msgid "copy images"
-msgstr "Copio immagine?"
+msgstr ""
 
 #: ../src/control/jobs/control_jobs.c:1523
 #, c-format
@@ -1740,9 +1734,8 @@ msgstr[1] "Copio immagini?"
 
 #: ../src/control/jobs/control_jobs.c:1546
 #: ../src/control/jobs/control_jobs.c:1553
-#, fuzzy
 msgid "local copy images"
-msgstr "Copia locale"
+msgstr ""
 
 #: ../src/control/jobs/control_jobs.c:1612
 #, c-format
@@ -1752,9 +1745,8 @@ msgstr ""
 "annullamento esportazione.."
 
 #: ../src/control/jobs/control_jobs.c:1623
-#, fuzzy
 msgid "export images"
-msgstr "Esporta tags"
+msgstr "Esporta immagini"
 
 #: ../src/control/jobs/control_jobs.c:1648
 #, c-format
@@ -1779,9 +1771,8 @@ msgid "write sidecar files"
 msgstr "Scrivi file XMP"
 
 #: ../src/control/jobs/film_jobs.c:72
-#, fuzzy
 msgid "import images"
-msgstr "Importa immagine"
+msgstr "Importa immagini"
 
 #: ../src/control/jobs/film_jobs.c:146
 msgid "no supported images were found to be imported"
@@ -2934,9 +2925,8 @@ msgid "$(MAKER) - camera maker"
 msgstr ""
 
 #: ../src/gui/gtkentry.c:206
-#, fuzzy
 msgid "$(MODEL) - camera model"
-msgstr "Modello fotocamera"
+msgstr ""
 
 #: ../src/gui/gtkentry.c:207
 msgid "$(STARS) - star rating"
@@ -2963,19 +2953,16 @@ msgid "$(TITLE) - title from metadata"
 msgstr "$(TITLE) - Titolo dai metadata"
 
 #: ../src/gui/gtkentry.c:213
-#, fuzzy
 msgid "$(CREATOR) - creator from metadata"
-msgstr "$(TITLE) - Titolo dai metadata"
+msgstr ""
 
 #: ../src/gui/gtkentry.c:214
-#, fuzzy
 msgid "$(PUBLISHER) - publisher from metadata"
-msgstr "$(TITLE) - Titolo dai metadata"
+msgstr ""
 
 #: ../src/gui/gtkentry.c:215
-#, fuzzy
 msgid "$(RIGHTS) - rights from metadata"
-msgstr "$(TITLE) - Titolo dai metadata"
+msgstr ""
 
 #: ../src/gui/guides.c:370
 msgid "extra"
@@ -3562,7 +3549,7 @@ msgstr "Orientazione foglio sul pdf"
 #. border
 #: ../src/imageio/format/pdf.c:627
 msgid "border"
-msgstr "bordo"
+msgstr "Bordo"
 
 #: ../src/imageio/format/pdf.c:637
 msgid ""
@@ -4141,9 +4128,8 @@ msgstr[0] "%d/%d esportato in Google+ album"
 msgstr[1] "%d/%d esportati in Google+ album"
 
 #: ../src/iop/ashift.c:111
-#, fuzzy
 msgid "perspective correction"
-msgstr "Seleziona correzioni"
+msgstr ""
 
 #: ../src/iop/ashift.c:509 ../src/iop/watermark.c:253
 msgctxt "accel"
@@ -4151,16 +4137,14 @@ msgid "rotation"
 msgstr "Rotazione "
 
 #: ../src/iop/ashift.c:510
-#, fuzzy
 msgctxt "accel"
 msgid "lens shift (v)"
-msgstr "Spostamento del blu"
+msgstr ""
 
 #: ../src/iop/ashift.c:511
-#, fuzzy
 msgctxt "accel"
 msgid "lens shift (h)"
-msgstr "Spostamento del blu"
+msgstr ""
 
 #: ../src/iop/ashift.c:512
 msgctxt "accel"
@@ -4194,9 +4178,9 @@ msgstr ""
 
 #: ../src/iop/ashift.c:4173 ../src/iop/ashift.c:4174 ../src/iop/ashift.c:4273
 #: ../src/iop/ashift.c:4274
-#, fuzzy, c-format
+#, c-format
 msgid "lens shift (%s)"
-msgstr "Spostamento del blu"
+msgstr ""
 
 #: ../src/iop/ashift.c:4173 ../src/iop/ashift.c:4174 ../src/iop/ashift.c:4273
 #: ../src/iop/ashift.c:4274 ../src/iop/clipping.c:1558
@@ -4239,52 +4223,44 @@ msgid "automatic cropping"
 msgstr "Ritaglio automatico"
 
 #: ../src/iop/ashift.c:4403
-#, fuzzy
 msgid "largest area"
-msgstr "Bordo maggiore"
+msgstr ""
 
 #: ../src/iop/ashift.c:4404
-#, fuzzy
 msgid "original format"
-msgstr "immagine originale"
+msgstr ""
 
 #: ../src/iop/ashift.c:4408
-#, fuzzy
 msgid "lens model"
-msgstr "Modello obiettivo"
+msgstr "Modello lente"
 
 #: ../src/iop/ashift.c:4409
-#, fuzzy
 msgid "generic"
-msgstr "Generale"
+msgstr ""
 
 #: ../src/iop/ashift.c:4410
 msgid "specific"
 msgstr ""
 
 #: ../src/iop/ashift.c:4423
-#, fuzzy
 msgid "crop factor"
-msgstr "Fattore"
+msgstr ""
 
 #: ../src/iop/ashift.c:4428
 msgid "lens dependence"
 msgstr ""
 
 #: ../src/iop/ashift.c:4438
-#, fuzzy
 msgid "aspect adjust"
-msgstr "Aspetto"
+msgstr ""
 
 #: ../src/iop/ashift.c:4448
-#, fuzzy
 msgid "automatic fit"
-msgstr "Automatico"
+msgstr ""
 
 #: ../src/iop/ashift.c:4467
-#, fuzzy
 msgid "get structure"
-msgstr "Struttura salvataggio"
+msgstr ""
 
 #: ../src/iop/ashift.c:4512
 #, fuzzy
@@ -4300,10 +4276,8 @@ msgid "shear the image along one diagonal"
 msgstr ""
 
 #: ../src/iop/ashift.c:4516
-#, fuzzy
 msgid "display guide lines overlay"
 msgstr ""
-"Visualizza le linee guida per aiutarti nella composizione della fotografia."
 
 #: ../src/iop/ashift.c:4517 ../src/iop/clipping.c:1876
 msgid "automatically crop to avoid black edges"
@@ -4372,9 +4346,8 @@ msgid "remove line structure information"
 msgstr ""
 
 #: ../src/iop/ashift.c:4545
-#, fuzzy
 msgid "toggle visibility of structure lines"
-msgstr "Attiva o disattiva la visibilità della mappa sovrapposizioni"
+msgstr ""
 
 #: ../src/iop/atrous.c:115
 msgid "equalizer"
@@ -4462,7 +4435,7 @@ msgstr "Cambia saturazione ad ogni dimensione caratteristica"
 
 #: ../src/iop/atrous.c:1666
 msgid "edges"
-msgstr "bordi"
+msgstr "Margini"
 
 #: ../src/iop/atrous.c:1668
 msgid ""
@@ -5316,9 +5289,8 @@ msgid "factor of blue for gain"
 msgstr "Fattore del blu per il gain"
 
 #: ../src/iop/colorchecker.c:111
-#, fuzzy
 msgid "color look up table"
-msgstr "Etichetta colore "
+msgstr "Tabella di ricerca colore"
 
 #: ../src/iop/colorchecker.c:262
 #, fuzzy
@@ -5351,9 +5323,8 @@ msgid "color checker patch"
 msgstr "Selettore colore"
 
 #: ../src/iop/colorchecker.c:1062
-#, fuzzy
 msgid "lightness offset"
-msgstr "Luminosità"
+msgstr "Compensazione luminosità"
 
 #: ../src/iop/colorchecker.c:1066
 msgid "chroma offset green/red"
@@ -5368,14 +5339,12 @@ msgid "chroma offset blue/yellow"
 msgstr ""
 
 #: ../src/iop/colorchecker.c:1074
-#, fuzzy
 msgid "blue/yellow"
-msgstr "Blu / Giallo"
+msgstr ""
 
 #: ../src/iop/colorchecker.c:1080
-#, fuzzy
 msgid "saturation offset"
-msgstr "Saturazione"
+msgstr "Compensazione saturazione"
 
 #: ../src/iop/colorcontrast.c:88
 msgid "color contrast"
@@ -5584,14 +5553,12 @@ msgid "output color profile"
 msgstr "Profilo colore di uscita"
 
 #: ../src/iop/colorout.c:658
-#, fuzzy
 msgid "missing output profile has been replaced by sRGB!"
-msgstr "Il profilo di uscita non supportato è stato sostituito con sRGB!"
+msgstr ""
 
 #: ../src/iop/colorout.c:675
-#, fuzzy
 msgid "missing softproof profile has been replaced by sRGB!"
-msgstr "Il profilo di uscita non supportato è stato sostituito con sRGB!"
+msgstr ""
 
 #: ../src/iop/colorout.c:718
 msgid "unsupported output profile has been replaced by sRGB!"
@@ -5843,9 +5810,9 @@ msgid "edge threshold"
 msgstr "Soglia bordi"
 
 #: ../src/iop/demosaic.c:3626
-#, fuzzy, c-format
+#, c-format
 msgid "`%s' color matrix not found for 4bayer image!"
-msgstr "`%s' matrice colore non trovata!"
+msgstr ""
 
 #: ../src/iop/demosaic.c:3826 ../src/iop/demosaic.c:3835
 #: ../src/iop/dither.c:792 ../src/iop/highlights.c:1065
@@ -5873,9 +5840,8 @@ msgid "demosaicing raw data method"
 msgstr "Metodo demosaicizzazione RAW"
 
 #: ../src/iop/demosaic.c:3837
-#, fuzzy
 msgid "VNG"
-msgstr "VNG4"
+msgstr "VNG"
 
 #: ../src/iop/demosaic.c:3838
 msgid "Markesteijn 1-pass"
@@ -6163,10 +6129,9 @@ msgid "adjust the exposure correction"
 msgstr "Regola la correzione dell'esposizione"
 
 #: ../src/iop/exposure.c:883
-#, fuzzy
 msgid ""
 "percentage of bright values clipped out, toggle color picker to activate"
-msgstr "Percentuale di luci tagliate fuori"
+msgstr ""
 
 #: ../src/iop/exposure.c:885 ../src/iop/highlights.c:1074
 #: ../src/views/darkroom.c:1575
@@ -6817,14 +6782,12 @@ msgid "click to add line"
 msgstr "Clicca per aggiungere una linea"
 
 #: ../src/iop/liquify.c:3240
-#, fuzzy
 msgid "click to add curve"
-msgstr "Ctrl+click per aggiungere un nodo"
+msgstr ""
 
 #: ../src/iop/liquify.c:3242
-#, fuzzy
 msgid "click to edit nodes"
-msgstr "Ctrl+click per aggiungere un nodo"
+msgstr ""
 
 #: ../src/iop/liquify.c:3278
 msgid ""
@@ -6894,22 +6857,19 @@ msgid "point tool"
 msgstr "Punto"
 
 #: ../src/iop/liquify.c:3346
-#, fuzzy
 msgctxt "accel"
 msgid "line tool"
-msgstr "Visualizza strumenti"
+msgstr ""
 
 #: ../src/iop/liquify.c:3347
-#, fuzzy
 msgctxt "accel"
 msgid "curve tool"
-msgstr "Visualizza strumenti"
+msgstr ""
 
 #: ../src/iop/liquify.c:3348
-#, fuzzy
 msgctxt "accel"
 msgid "node tool"
-msgstr "Modulo strumenti"
+msgstr ""
 
 #: ../src/iop/lowlight.c:84
 msgid "lowlight vision"
@@ -7137,21 +7097,20 @@ msgstr ""
 "funziona solo con le immagini raw."
 
 #: ../src/iop/rawoverexposed.c:68
-#, fuzzy
 msgid "raw overexposed"
-msgstr "Sovraesposizione"
+msgstr ""
 
 #: ../src/iop/rawprepare.c:46
 msgid "crop x"
-msgstr ""
+msgstr "Taglia x"
 
 #: ../src/iop/rawprepare.c:46
 msgid "crop from left border"
-msgstr ""
+msgstr "Taglia dal bordo sinistro"
 
 #: ../src/iop/rawprepare.c:47
 msgid "crop y"
-msgstr ""
+msgstr "Taglia y"
 
 #: ../src/iop/rawprepare.c:47
 #, fuzzy
@@ -7159,18 +7118,16 @@ msgid "crop from top"
 msgstr "Rimuovi dal gruppo"
 
 #: ../src/iop/rawprepare.c:48
-#, fuzzy
 msgid "crop width"
-msgstr "Larghezza"
+msgstr ""
 
 #: ../src/iop/rawprepare.c:48
 msgid "crop from right border"
-msgstr ""
+msgstr "Taglia dal bordo destro"
 
 #: ../src/iop/rawprepare.c:49
-#, fuzzy
 msgid "crop height"
-msgstr "Altezza"
+msgstr ""
 
 #: ../src/iop/rawprepare.c:49
 msgid "crop from bottom"
@@ -7529,10 +7486,9 @@ msgstr "Rimuovi copia locale"
 
 # Non so se tradurlo come "Fotocamera neutrale"
 #: ../src/iop/temperature.c:201
-#, fuzzy
 msgctxt "accel"
 msgid "preset/camera neutral"
-msgstr "Fotocamera neutrale"
+msgstr ""
 
 #: ../src/iop/temperature.c:202
 #, fuzzy
@@ -7557,30 +7513,26 @@ msgid "spot"
 msgstr "Punto"
 
 #: ../src/iop/temperature.c:914
-#, fuzzy, c-format
+#, c-format
 msgid "`%s' color matrix not found for image"
-msgstr "`%s' matrice colore non trovata!"
+msgstr ""
 
 #: ../src/iop/temperature.c:958
-#, fuzzy, c-format
+#, c-format
 msgid "failed to read camera white balance information from `%s'!"
 msgstr ""
-"impossibile leggere le informazioni della fotocamera sul bilanciamento del "
-"bianco!"
 
 #: ../src/iop/temperature.c:1317
-#, fuzzy
 msgid "magenta"
-msgstr "Suggerimento immagine"
+msgstr "magenta"
 
 #: ../src/iop/temperature.c:1318
 msgid "cyan"
-msgstr ""
+msgstr "ciano"
 
 #: ../src/iop/temperature.c:1331
-#, fuzzy
 msgid "emerald"
-msgstr "Generale"
+msgstr "smeraldo"
 
 #: ../src/iop/temperature.c:1364
 msgid "tint"
@@ -7661,9 +7613,8 @@ msgid "manual"
 msgstr "Manuale"
 
 #: ../src/iop/tonecurve.c:948
-#, fuzzy
 msgid "automatic in XYZ"
-msgstr "Automatico"
+msgstr ""
 
 #: ../src/iop/tonecurve.c:950
 #, fuzzy
@@ -7879,23 +7830,18 @@ msgid "SVG watermarks in %s/watermarks or %s/watermarks"
 msgstr "Filigrane SVG in %s/watermarks o %s/watermarks"
 
 #: ../src/iop/watermark.c:1302
-#, fuzzy
 msgid "color"
 msgstr "Colore"
 
 #: ../src/iop/watermark.c:1304
-#, fuzzy
 msgid ""
 "watermark color, tag:\n"
 "$(WATERMARK_COLOR)"
 msgstr ""
-"Colore testo, tag:\n"
-"$(WATERMARK_COLOR)"
 
 #: ../src/iop/watermark.c:1307
-#, fuzzy
 msgid "select watermark color"
-msgstr "Seleziona tono del colore "
+msgstr ""
 
 #. Simple text
 #: ../src/iop/watermark.c:1313
@@ -8027,7 +7973,7 @@ msgstr "Batteria"
 
 #: ../src/libs/camera.c:362
 msgid "n/a"
-msgstr "N/A"
+msgstr "N/D"
 
 #. Camera control
 #: ../src/libs/camera.c:435
@@ -8353,26 +8299,20 @@ msgid "error loading file '%s'"
 msgstr "Errore nel caricamento del file '%s'"
 
 #: ../src/libs/copy_history.c:245
-#, fuzzy
 msgid ""
 "copy part history stack of\n"
 "first selected image"
 msgstr ""
-"Copia parte della coda di sviluppo della\n"
-"prima immagine selezionata (ctrl-shift-c)"
 
 #: ../src/libs/copy_history.c:248
 msgid "copy all"
 msgstr "Copia tutto"
 
 #: ../src/libs/copy_history.c:251
-#, fuzzy
 msgid ""
 "copy history stack of\n"
 "first selected image"
 msgstr ""
-"Copia coda di sviluppo della\n"
-"prima immagine selezionata (Ctrl-c)"
 
 #: ../src/libs/copy_history.c:254
 msgid "discard"
@@ -8391,26 +8331,20 @@ msgid "paste"
 msgstr "Incolla"
 
 #: ../src/libs/copy_history.c:263
-#, fuzzy
 msgid ""
 "paste part history stack to\n"
 "all selected images"
 msgstr ""
-"Incolla parte della coda di sviluppo a\n"
-"tutte le immagini selezionate (ctrl-shift-v)"
 
 #: ../src/libs/copy_history.c:268
 msgid "paste all"
 msgstr "Incolla tutto"
 
 #: ../src/libs/copy_history.c:270
-#, fuzzy
 msgid ""
 "paste history stack to\n"
 "all selected images"
 msgstr ""
-"Incolla coda di sviluppo a\n"
-"tutte le immagini selezionate (Ctrl-v)"
 
 #: ../src/libs/copy_history.c:276
 msgid "append"
@@ -8560,9 +8494,8 @@ msgid ""
 msgstr "Aggiunge gli stili alla cronologia oppure la rimpiazza"
 
 #: ../src/libs/export.c:661
-#, fuzzy
 msgid "export with current settings"
-msgstr "Esporta con le impostazioni correnti (Ctrl-e)"
+msgstr "Esporta con settaggi correnti"
 
 #. enable shortcut to export with current export settings:
 #: ../src/libs/export.c:1181 ../src/libs/styles.c:67
@@ -9431,48 +9364,44 @@ msgstr "Sconosciuto"
 
 #: ../src/libs/metadata_view.c:378
 msgid "tiff"
-msgstr ""
+msgstr "tiff"
 
 #: ../src/libs/metadata_view.c:379
-#, fuzzy
 msgid "png"
-msgstr "ppg"
+msgstr "png"
 
 #: ../src/libs/metadata_view.c:380
 msgid "j2k"
 msgstr "j2k"
 
 #: ../src/libs/metadata_view.c:381
-#, fuzzy
 msgid "jpeg"
-msgstr "jpeg 2000"
+msgstr "jpeg"
 
 #: ../src/libs/metadata_view.c:382
-#, fuzzy
 msgid "exr"
-msgstr "Extra"
+msgstr "exr"
 
 #: ../src/libs/metadata_view.c:383
 msgid "rgbe"
-msgstr ""
+msgstr "rgbe"
 
 #: ../src/libs/metadata_view.c:384
 msgid "pfm"
-msgstr ""
+msgstr "pfm"
 
 #: ../src/libs/metadata_view.c:385
 msgid "GraphicsMagick"
-msgstr ""
+msgstr "GraphicsMagick"
 
 #: ../src/libs/metadata_view.c:386
-#, fuzzy
 msgid "rawspeed"
-msgstr "Tempo di scatto"
+msgstr "rawspeed"
 
 #: ../src/libs/metadata_view.c:391
-#, fuzzy, c-format
+#, c-format
 msgid "loader: %s"
-msgstr "Carico immagine %s"
+msgstr ""
 
 #: ../src/libs/metadata_view.c:627
 msgctxt "accel"
@@ -9560,9 +9489,9 @@ msgid "prepare printing image %d on `%s'"
 msgstr "Prepara la stampa immagine %d su `%s'"
 
 #: ../src/libs/print_settings.c:284
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open printer profile `%s'"
-msgstr "Impossibile applicare il profilo stampante `%s'"
+msgstr ""
 
 #: ../src/libs/print_settings.c:295
 #, c-format
@@ -9611,17 +9540,12 @@ msgid "scale factor"
 msgstr "Fattore di scala"
 
 #: ../src/libs/print_settings.c:1141
-#, fuzzy
 msgid ""
 "image scale factor from native printer DPI:\n"
 " < 1 means that it is downscaled (best quality)\n"
 " > 1 means that the image is upscaled\n"
 " a too large value may result in poor print quality"
 msgstr ""
-"Fattore di scala immagini dai DPI nativi della stampante:\n"
-" < 0 significa che è downscaled (qualità migliore)\n"
-" > 0 significa che l'immagine è upscaled\n"
-" un valore troppo alto può fornire una qualità di stampa scarsa"
 
 #. d->b_top  = gtk_spin_button_new_with_range(0, 10000, 1);
 #: ../src/libs/print_settings.c:1155
@@ -9661,15 +9585,13 @@ msgid "print"
 msgstr "Stampa"
 
 #: ../src/libs/print_settings.c:1349
-#, fuzzy
 msgid "print with current settings"
-msgstr "Stampa con le impostazioni correnti"
+msgstr ""
 
 #: ../src/libs/print_settings.c:1808
-#, fuzzy
 msgctxt "accel"
 msgid "print"
-msgstr "Stampa"
+msgstr ""
 
 #: ../src/libs/recentcollect.c:51
 msgid "recently used collections"
@@ -9694,31 +9616,26 @@ msgid " but not "
 msgstr "ma non"
 
 #: ../src/libs/select.c:103
-#, fuzzy
 msgid "select all images in current collection"
-msgstr "Seleziona tutte le immagini in questa raccolta (Ctrl-a)"
+msgstr ""
 
 #: ../src/libs/select.c:107
 msgid "select none"
 msgstr "Seleziona nessuna"
 
 #: ../src/libs/select.c:110
-#, fuzzy
 msgid "clear selection"
-msgstr "Inverti selezione"
+msgstr "Pulisci selezione"
 
 #: ../src/libs/select.c:115
 msgid "invert selection"
 msgstr "Inverti selezione"
 
 #: ../src/libs/select.c:117
-#, fuzzy
 msgid ""
 "select unselected images\n"
 "in current collection"
 msgstr ""
-"Seleziona le immagini non selezionate\n"
-"nella raccolta corrente (Ctrl-!)"
 
 #: ../src/libs/select.c:122
 msgid "select film roll"
@@ -9918,44 +9835,38 @@ msgid "delete tag?"
 msgstr "Eliminare etichetta?"
 
 #: ../src/libs/tagging.c:353
-#, fuzzy
 msgid "Select a keyword file"
-msgstr "seleziona un file"
+msgstr ""
 
 #: ../src/libs/tagging.c:356
-#, fuzzy
 msgid "_import"
-msgstr "Importa "
+msgstr "_Importa"
 
 #: ../src/libs/tagging.c:367
-#, fuzzy
 msgid "error importing tags"
-msgstr "Importo immagine %s"
+msgstr ""
 
 #: ../src/libs/tagging.c:369
-#, fuzzy, c-format
+#, c-format
 msgid "%ld tags imported"
-msgstr "%s è stato importato con successo"
+msgstr ""
 
 #: ../src/libs/tagging.c:390
-#, fuzzy
 msgid "Select file to export to"
-msgstr "Seleziona file da esportare"
+msgstr ""
 
 #: ../src/libs/tagging.c:393
-#, fuzzy
 msgid "_export"
-msgstr "Esporta"
+msgstr "_Esporta"
 
 #: ../src/libs/tagging.c:405
-#, fuzzy
 msgid "error exporting tags"
-msgstr "Esporta tags"
+msgstr "Errore durante l'esportazione delle tag"
 
 #: ../src/libs/tagging.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "%ld tags exported"
-msgstr "%s è stato importato con successo"
+msgstr ""
 
 #: ../src/libs/tagging.c:478
 msgid ""
@@ -10015,9 +9926,8 @@ msgid "import"
 msgstr "Importa "
 
 #: ../src/libs/tagging.c:551
-#, fuzzy
 msgid "import tags from a Lightroom keyword file"
-msgstr "Importa uno stile da un file stile"
+msgstr ""
 
 #: ../src/libs/tagging.c:555
 msgctxt "verb"
@@ -10109,10 +10019,9 @@ msgid "color purple"
 msgstr "Viola"
 
 #: ../src/libs/tools/colorlabels.c:111
-#, fuzzy
 msgctxt "accel"
 msgid "clear color labels"
-msgstr "Etichetta colore "
+msgstr ""
 
 #: ../src/libs/tools/darktable.c:56
 msgid "darktable"
@@ -10120,7 +10029,7 @@ msgstr "darktable"
 
 #: ../src/libs/tools/darktable.c:288
 msgid "copyright (c) the authors 2009-2016"
-msgstr ""
+msgstr "copyright (c) gli autori 2009-2016"
 
 #: ../src/libs/tools/darktable.c:290
 msgid "organize and develop images from digital cameras"
@@ -10328,9 +10237,8 @@ msgstr "Modifica vista"
 #. char *italic = g_strdup_printf("<i>%s</i>", _("other"));
 #. italic
 #: ../src/libs/tools/viewswitcher.c:147
-#, fuzzy
 msgid "other"
-msgstr "Dither"
+msgstr ""
 
 #: ../src/libs/tools/view_toolbox.c:46
 msgid "view toolbox"
@@ -10389,27 +10297,22 @@ msgid "quick access for applying any of your styles"
 msgstr "Accesso rapido all'applicazione degli stili"
 
 #: ../src/views/darkroom.c:1506
-#, fuzzy
 msgid ""
 "toggle raw over exposed indication\n"
 "right click for options"
 msgstr ""
-"Passa all'indicazione di sovra/sotto esposizione\n"
-"click destro per ulteriori opzioni"
 
 #: ../src/views/darkroom.c:1548
 msgid "mark with CFA color"
 msgstr ""
 
 #: ../src/views/darkroom.c:1549
-#, fuzzy
 msgid "mark with solid color"
-msgstr "Colore hsl"
+msgstr ""
 
 #: ../src/views/darkroom.c:1550
-#, fuzzy
 msgid "false color"
-msgstr "Colore della cornice"
+msgstr "Falso colore"
 
 #: ../src/views/darkroom.c:1552
 msgid "select how to mark the clipped pixels"
@@ -10432,16 +10335,14 @@ msgid "green"
 msgstr "Verde"
 
 #: ../src/views/darkroom.c:1562
-#, fuzzy
 msgctxt "solidcolor"
 msgid "blue"
-msgstr "Blu"
+msgstr ""
 
 #: ../src/views/darkroom.c:1563
-#, fuzzy
 msgctxt "solidcolor"
 msgid "black"
-msgstr "Nero"
+msgstr ""
 
 #: ../src/views/darkroom.c:1567
 msgid ""
@@ -10450,12 +10351,11 @@ msgid ""
 msgstr ""
 
 #: ../src/views/darkroom.c:1577
-#, fuzzy
 msgid ""
 "threshold of what shall be considered overexposed\n"
 "1.0 - white level\n"
 "0.0 - black level"
-msgstr "Soglia per la sovraesposizione"
+msgstr ""
 
 #: ../src/views/darkroom.c:1588
 msgid ""
