@@ -1618,18 +1618,16 @@ msgstr "Unisco %d immagine"
 
 #: ../src/control/jobs/control_jobs.c:1340
 msgid "duplicate images"
-msgstr ""
+msgstr "Duplica immagini"
 
 #: ../src/control/jobs/control_jobs.c:1347
-#, fuzzy
 msgid "flip images"
-msgstr "Rifletti le guide"
+msgstr "Rifletti immagini"
 
 #. get all selected images now, to avoid the set changing during ui interaction
 #: ../src/control/jobs/control_jobs.c:1354
-#, fuzzy
 msgid "remove images"
-msgstr "Rimuovere le immagini?"
+msgstr "Rimuovi immagini"
 
 #: ../src/control/jobs/control_jobs.c:1376
 #, c-format
@@ -1647,7 +1645,7 @@ msgstr "Rimuovere le immagini?"
 #. first get all selected images, to avoid the set changing during ui interaction
 #: ../src/control/jobs/control_jobs.c:1395
 msgid "delete images"
-msgstr ""
+msgstr "Cancella immagini"
 
 # Ricontrollare
 #: ../src/control/jobs/control_jobs.c:1419
@@ -1678,7 +1676,7 @@ msgstr "Cancellare le immagini?"
 
 #: ../src/control/jobs/control_jobs.c:1446
 msgid "move images"
-msgstr ""
+msgstr "Sposta immagini"
 
 #: ../src/control/jobs/control_jobs.c:1450
 #: ../src/control/jobs/control_jobs.c:1504 ../src/imageio/storage/disk.c:92
@@ -1717,7 +1715,7 @@ msgstr[1] "Spostare le immagini?"
 
 #: ../src/control/jobs/control_jobs.c:1500
 msgid "copy images"
-msgstr ""
+msgstr "Copia immagini"
 
 #: ../src/control/jobs/control_jobs.c:1523
 #, c-format
@@ -1735,7 +1733,7 @@ msgstr[1] "Copio immagini?"
 #: ../src/control/jobs/control_jobs.c:1546
 #: ../src/control/jobs/control_jobs.c:1553
 msgid "local copy images"
-msgstr ""
+msgstr "local copy images"
 
 #: ../src/control/jobs/control_jobs.c:1612
 #, c-format
@@ -4129,7 +4127,7 @@ msgstr[1] "%d/%d esportati in Google+ album"
 
 #: ../src/iop/ashift.c:111
 msgid "perspective correction"
-msgstr ""
+msgstr "Correzione prospettiva"
 
 #: ../src/iop/ashift.c:509 ../src/iop/watermark.c:253
 msgctxt "accel"
@@ -4152,9 +4150,8 @@ msgid "shear"
 msgstr ""
 
 #: ../src/iop/ashift.c:2498
-#, fuzzy
 msgid "automatic cropping failed"
-msgstr "Ritaglio automatico"
+msgstr "Ritaglio automatico fallito"
 
 #: ../src/iop/ashift.c:2518
 msgid "data pending - please repeat"
@@ -4236,11 +4233,11 @@ msgstr "Modello lente"
 
 #: ../src/iop/ashift.c:4409
 msgid "generic"
-msgstr ""
+msgstr "Generico"
 
 #: ../src/iop/ashift.c:4410
 msgid "specific"
-msgstr ""
+msgstr "Specifico"
 
 #: ../src/iop/ashift.c:4423
 msgid "crop factor"
@@ -4263,9 +4260,8 @@ msgid "get structure"
 msgstr ""
 
 #: ../src/iop/ashift.c:4512
-#, fuzzy
 msgid "rotate image"
-msgstr "ruota immagini"
+msgstr "ruota immagine"
 
 #: ../src/iop/ashift.c:4513 ../src/iop/ashift.c:4514
 msgid "apply lens shift correction in one direction"
@@ -5340,7 +5336,7 @@ msgstr ""
 
 #: ../src/iop/colorchecker.c:1074
 msgid "blue/yellow"
-msgstr ""
+msgstr "Blu/Giallo"
 
 #: ../src/iop/colorchecker.c:1080
 msgid "saturation offset"
@@ -6771,7 +6767,7 @@ msgstr "Bianco"
 
 #: ../src/iop/liquify.c:267
 msgid "liquify"
-msgstr ""
+msgstr "fluidifica"
 
 #: ../src/iop/liquify.c:3236
 msgid "click and drag to add point"
@@ -6783,11 +6779,11 @@ msgstr "Clicca per aggiungere una linea"
 
 #: ../src/iop/liquify.c:3240
 msgid "click to add curve"
-msgstr ""
+msgstr "Clic per aggiungere una curva"
 
 #: ../src/iop/liquify.c:3242
 msgid "click to edit nodes"
-msgstr ""
+msgstr "Clic per modificare i nodi"
 
 #: ../src/iop/liquify.c:3278
 msgid ""
@@ -7113,9 +7109,8 @@ msgid "crop y"
 msgstr "Taglia y"
 
 #: ../src/iop/rawprepare.c:47
-#, fuzzy
 msgid "crop from top"
-msgstr "Rimuovi dal gruppo"
+msgstr "Ritaglia dall'alto"
 
 #: ../src/iop/rawprepare.c:48
 msgid "crop width"
@@ -7448,10 +7443,9 @@ msgstr ""
 "Tasto destro per rimuovere la forma."
 
 #: ../src/iop/spots.c:693
-#, fuzzy
 msgctxt "accel"
 msgid "spot circle tool"
-msgstr "Rimozione macchie"
+msgstr ""
 
 #: ../src/iop/spots.c:694
 msgctxt "accel"
@@ -7838,10 +7832,12 @@ msgid ""
 "watermark color, tag:\n"
 "$(WATERMARK_COLOR)"
 msgstr ""
+"Colore filigrana, tag:\n"
+"$(WATERMARK_COLOR)"
 
 #: ../src/iop/watermark.c:1307
 msgid "select watermark color"
-msgstr ""
+msgstr "Selezione colore filigrana"
 
 #. Simple text
 #: ../src/iop/watermark.c:1313
@@ -9591,7 +9587,7 @@ msgstr ""
 #: ../src/libs/print_settings.c:1808
 msgctxt "accel"
 msgid "print"
-msgstr ""
+msgstr "Stampa"
 
 #: ../src/libs/recentcollect.c:51
 msgid "recently used collections"
@@ -9617,7 +9613,7 @@ msgstr "ma non"
 
 #: ../src/libs/select.c:103
 msgid "select all images in current collection"
-msgstr ""
+msgstr "Seleziona tutte le immagini nella raccolta corrente"
 
 #: ../src/libs/select.c:107
 msgid "select none"
@@ -10238,7 +10234,7 @@ msgstr "Modifica vista"
 #. italic
 #: ../src/libs/tools/viewswitcher.c:147
 msgid "other"
-msgstr ""
+msgstr "Altro"
 
 #: ../src/libs/tools/view_toolbox.c:46
 msgid "view toolbox"
@@ -10323,13 +10319,11 @@ msgid "color scheme"
 msgstr "Combinazione colori"
 
 #: ../src/views/darkroom.c:1560
-#, fuzzy
 msgctxt "solidcolor"
 msgid "red"
 msgstr "Rosso"
 
 #: ../src/views/darkroom.c:1561
-#, fuzzy
 msgctxt "solidcolor"
 msgid "green"
 msgstr "Verde"
@@ -10337,12 +10331,12 @@ msgstr "Verde"
 #: ../src/views/darkroom.c:1562
 msgctxt "solidcolor"
 msgid "blue"
-msgstr ""
+msgstr "Blu"
 
 #: ../src/views/darkroom.c:1563
 msgctxt "solidcolor"
 msgid "black"
-msgstr ""
+msgstr "Nero"
 
 #: ../src/views/darkroom.c:1567
 msgid ""
@@ -10697,6 +10691,7 @@ msgstr "Stai commettendo un errore!"
 #: ../src/views/view.c:324
 msgid "_yes, i understood. please let me suffer by using 32-bit darktable."
 msgstr ""
+"_Sì, capisco, per favore fammi soffrire utilizzando darktable a 32-bit."
 
 #: ../src/views/view.c:328
 msgid ""
@@ -10708,6 +10703,14 @@ msgid ""
 "we strongly recommend you switch to a proper 64-bit build.\n"
 "otherwise, you are GUARANTEED to experience issues which cannot be fixed.\n"
 msgstr ""
+"Attenzione!\n"
+"Stai utilizzando una build a 32-bit di darktable.\n"
+"Le build a 32-bit hanno uno spazio di indirizzamento molto limitato.\n"
+"Abbiamo già avuto numerosi report circa sporadici problemi e crash di build "
+"di darktable a 32-bit.\n"
+"Raccomandiamo fortemente di utilizzare una build a 64-bit.\n"
+"Altrimenti è GARANTITO che incapperai in problemi che non possono essere "
+"risolti.\n"
 
 #~ msgctxt "preferences"
 #~ msgid "gnome keyring"
