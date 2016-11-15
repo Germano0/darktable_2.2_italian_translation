@@ -2,4 +2,8 @@ Di seguito sono fissate le traduzioni di alcuni termini che possono generare
 ambiguità durante l'operazione di traduzione
 
 border = bordo
-edge = margine 
+edge = margine
+lightness = luminosità
+look up table = tabella di ricerca
+offset = compensazione
+watermark = filigrana
