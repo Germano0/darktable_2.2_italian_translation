@@ -1,8 +1,11 @@
 Di seguito sono fissate le traduzioni di alcuni termini che possono generare
 ambiguità durante l'operazione di traduzione
 
+adjust = regolazione
+aspect ratio = rapporto d'aspetto https://it.wikipedia.org/wiki/Rapporto_d%27aspetto_(immagine)
 border = bordo
 collection = raccolta
+crop factor = fattore di taglio
 edge = margine
 flip = rifletti
 lightness = luminosità

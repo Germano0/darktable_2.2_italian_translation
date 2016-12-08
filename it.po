@@ -826,6 +826,8 @@ msgid ""
 "darktable supports most modern camera's raw formats, and does all of its "
 "processing at very high precision."
 msgstr ""
+"darktable supporta i formati raw delle più moderne fotocamere, e ne esegue "
+"le elaborazioni con un'altissima precisione"
 
 #: ../data/darktable.desktop.in.h:1
 msgid "Virtual Lighttable and Darkroom"
@@ -861,6 +863,8 @@ msgid ""
 "average dE: %.02f\n"
 "max dE: %.02f"
 msgstr ""
+"media dE: %.02f\n"
+"massimo dE: %.02f"
 
 #: ../src/cli/main.c:102
 msgid "TODO: sorry, due to API restrictions we currently cannot set the BPP to"
@@ -1056,7 +1060,7 @@ msgstr "sRGB (sicuro per il web)"
 
 #: ../src/common/colorspaces.c:1229
 msgid "BRG (for testing)"
-msgstr ""
+msgstr "BRG (per test)"
 
 #: ../src/common/cups_print.c:322
 #, c-format
@@ -1106,10 +1110,17 @@ msgid ""
 "do you want to close darktable now to manually restore\n"
 "the database from a backup or start with a new one?"
 msgstr ""
+"Un errore si è verificato durante l'apertura del database da\n"
+"\n"
+"<span style=\"italic\">%s</span>\n"
+"\n"
+"sembra che il database sia corrotto.\n"
+"Vuoi chiudere darktable ora e ripristinare manualmente\n"
+"il database da un backup oppure iniziare con uno nuovo?"
 
 #: ../src/common/database.c:1584 ../src/common/database.c:1660
 msgid "darktable - error opening database"
-msgstr ""
+msgstr "darktable - errore nell'apertura del database"
 
 #: ../src/common/database.c:1585 ../src/common/database.c:1661
 msgid "close darktable"
@@ -1285,7 +1296,7 @@ msgstr "Legale"
 
 #: ../src/common/pwstorage/pwstorage.c:83
 msgid "GNOME Keyring backend is no longer supported. configure a different one"
-msgstr ""
+msgstr "GNOME Keyring backend non è più supportato. Configurane uno differente"
 
 #: ../src/common/ratings.c:45
 #, c-format
@@ -1456,7 +1467,7 @@ msgstr ""
 
 #: ../src/control/jobs/control_jobs.c:326
 msgid "exposure bracketing only works on raw images."
-msgstr ""
+msgstr "Il bracketing dell'esposizione funziona solamente sulle immagini raw."
 
 #: ../src/control/jobs/control_jobs.c:333
 msgid "images have to be of same size and orientation!"
@@ -1612,9 +1623,8 @@ msgid "image `%s' is currently unavailable"
 msgstr "Immagine '%s' al momento non disponibile"
 
 #: ../src/control/jobs/control_jobs.c:1326
-#, fuzzy
 msgid "merge hdr image"
-msgstr "Unisco %d immagine"
+msgstr "Unisci immagine hdr"
 
 #: ../src/control/jobs/control_jobs.c:1340
 msgid "duplicate images"
@@ -2442,7 +2452,7 @@ msgstr "Usa la stessa forma di"
 
 #: ../src/develop/masks/masks.c:1997
 msgid "masks can not contain themselves"
-msgstr ""
+msgstr "Le maschere non possono contenere se stesse\t"
 
 #: ../src/develop/pixelpipe_hb.c:2302
 msgid ""
@@ -2626,7 +2636,7 @@ msgstr ""
 #: ../src/generate-cache/main.c:217
 #, c-format
 msgid "error: ensure that min_mip <= max_mip\n"
-msgstr ""
+msgstr "errore: assicurarsi che min_mip <= max_mip\n"
 
 #: ../src/generate-cache/main.c:222
 #, c-format
@@ -2920,11 +2930,11 @@ msgstr "$(EXIF_ISO) - valore iso"
 
 #: ../src/gui/gtkentry.c:205
 msgid "$(MAKER) - camera maker"
-msgstr ""
+msgstr "$(MAKER) - produttore fotocamera"
 
 #: ../src/gui/gtkentry.c:206
 msgid "$(MODEL) - camera model"
-msgstr ""
+msgstr "$(MODEL) - produttore fotocamera"
 
 #: ../src/gui/gtkentry.c:207
 msgid "$(STARS) - star rating"
@@ -2952,7 +2962,7 @@ msgstr "$(TITLE) - Titolo dai metadata"
 
 #: ../src/gui/gtkentry.c:213
 msgid "$(CREATOR) - creator from metadata"
-msgstr ""
+msgstr "$(CREATOR) - creatore dai metadata"
 
 #: ../src/gui/gtkentry.c:214
 msgid "$(PUBLISHER) - publisher from metadata"
@@ -2960,7 +2970,7 @@ msgstr ""
 
 #: ../src/gui/gtkentry.c:215
 msgid "$(RIGHTS) - rights from metadata"
-msgstr ""
+msgstr "$(RIGHTS) - diritti dai metadata"
 
 #: ../src/gui/guides.c:370
 msgid "extra"
@@ -4137,17 +4147,17 @@ msgstr "Rotazione "
 #: ../src/iop/ashift.c:510
 msgctxt "accel"
 msgid "lens shift (v)"
-msgstr ""
+msgstr "Cambia lente (v)"
 
 #: ../src/iop/ashift.c:511
 msgctxt "accel"
 msgid "lens shift (h)"
-msgstr ""
+msgstr "Cambia lente (o)"
 
 #: ../src/iop/ashift.c:512
 msgctxt "accel"
 msgid "shear"
-msgstr ""
+msgstr "cesoia"
 
 #: ../src/iop/ashift.c:2498
 msgid "automatic cropping failed"
@@ -4155,11 +4165,11 @@ msgstr "Ritaglio automatico fallito"
 
 #: ../src/iop/ashift.c:2518
 msgid "data pending - please repeat"
-msgstr ""
+msgstr "dati in sospeso - per favore ripetere"
 
 #: ../src/iop/ashift.c:2524
 msgid "could not detect structural data in image"
-msgstr ""
+msgstr "Non è stato possibile individuare dati strutturali nell'immagine"
 
 #: ../src/iop/ashift.c:2535
 msgid "could not run outlier removal"
@@ -4197,14 +4207,12 @@ msgid "rotation"
 msgstr "Rotazione"
 
 #: ../src/iop/ashift.c:4380
-#, fuzzy
 msgid "lens shift (vertical)"
-msgstr "Rifletti verticalmente"
+msgstr "Cambia lente (verticale)"
 
 #: ../src/iop/ashift.c:4385
-#, fuzzy
 msgid "lens shift (horizontal)"
-msgstr "Rifletti orizzontalmente"
+msgstr "Cambia lente (orizzontale)"
 
 #: ../src/iop/ashift.c:4390
 msgid "shear"
@@ -4221,11 +4229,11 @@ msgstr "Ritaglio automatico"
 
 #: ../src/iop/ashift.c:4403
 msgid "largest area"
-msgstr ""
+msgstr "area più larga"
 
 #: ../src/iop/ashift.c:4404
 msgid "original format"
-msgstr ""
+msgstr "formato originale"
 
 #: ../src/iop/ashift.c:4408
 msgid "lens model"
@@ -4241,15 +4249,15 @@ msgstr "Specifico"
 
 #: ../src/iop/ashift.c:4423
 msgid "crop factor"
-msgstr ""
+msgstr "fattore di taglio"
 
 #: ../src/iop/ashift.c:4428
 msgid "lens dependence"
-msgstr ""
+msgstr "Dipendenza lente"
 
 #: ../src/iop/ashift.c:4438
 msgid "aspect adjust"
-msgstr ""
+msgstr "Regolazione aspetto"
 
 #: ../src/iop/ashift.c:4448
 msgid "automatic fit"
@@ -4257,7 +4265,7 @@ msgstr ""
 
 #: ../src/iop/ashift.c:4467
 msgid "get structure"
-msgstr ""
+msgstr "Ottieni struttura"
 
 #: ../src/iop/ashift.c:4512
 msgid "rotate image"
@@ -4269,7 +4277,7 @@ msgstr ""
 
 #: ../src/iop/ashift.c:4515
 msgid "shear the image along one diagonal"
-msgstr ""
+msgstr "Taglia l'immagine lungo una diagonale"
 
 #: ../src/iop/ashift.c:4516
 msgid "display guide lines overlay"
@@ -4294,6 +4302,8 @@ msgid ""
 "crop factor of the camera sensor, default value set from exif data if "
 "available, manual setting is often required"
 msgstr ""
+"Fattore di taglio del sensore della fotocamera, imposta un valore di default "
+"dai dati exif (se disponibili), spesso è richiesto un'impostazione manuale"
 
 #: ../src/iop/ashift.c:4525
 msgid ""
@@ -4302,9 +4312,8 @@ msgid ""
 msgstr ""
 
 #: ../src/iop/ashift.c:4527
-#, fuzzy
 msgid "adjust aspect ratio of image by horizontal and vertical scaling"
-msgstr "Rifletti l'immagine orizzontalmente e/o verticalmente"
+msgstr ""
 
 #: ../src/iop/ashift.c:4528
 msgid ""
@@ -5289,14 +5298,13 @@ msgid "color look up table"
 msgstr "Tabella di ricerca colore"
 
 #: ../src/iop/colorchecker.c:262
-#, fuzzy
 msgid "it8 skin tones"
-msgstr "Toni naturali della pelle"
+msgstr "toni della pelle it8"
 
 #: ../src/iop/colorchecker.c:635 ../src/iop/colorchecker.c:1055
-#, fuzzy, c-format
+#, c-format
 msgid "patch #%d"
-msgstr "Tracciato #%d"
+msgstr "patch #%d"
 
 #: ../src/iop/colorchecker.c:942
 #, c-format
@@ -5314,9 +5322,8 @@ msgid "patch"
 msgstr "patch"
 
 #: ../src/iop/colorchecker.c:1051
-#, fuzzy
 msgid "color checker patch"
-msgstr "Selettore colore"
+msgstr ""
 
 #: ../src/iop/colorchecker.c:1062
 msgid "lightness offset"
@@ -5324,7 +5331,7 @@ msgstr "Compensazione luminosità"
 
 #: ../src/iop/colorchecker.c:1066
 msgid "chroma offset green/red"
-msgstr ""
+msgstr "compensazione cromatica verde/rosso"
 
 #: ../src/iop/colorchecker.c:1067
 msgid "green/red"
@@ -5332,7 +5339,7 @@ msgstr "verde/rosso"
 
 #: ../src/iop/colorchecker.c:1073
 msgid "chroma offset blue/yellow"
-msgstr ""
+msgstr "compensazione cromatica blu/giallo"
 
 #: ../src/iop/colorchecker.c:1074
 msgid "blue/yellow"
@@ -5622,9 +5629,8 @@ msgid "hue"
 msgstr "Tonalità"
 
 #: ../src/iop/colorreconstruction.c:653
-#, fuzzy
 msgid "module `color reconstruction' failed"
-msgstr "Ricostruzione colore"
+msgstr "Fallimento del modulo `ricostruzione colore'"
 
 #: ../src/iop/colorreconstruction.c:1373 ../src/iop/shadhi.c:856
 #: ../src/iop/tonemap.cc:298
@@ -6573,7 +6579,7 @@ msgstr ""
 "Modello:\t\t%s\n"
 "Focal range:\t%s\n"
 "Apertura:\t\t%s\n"
-"Fattore di moltiplicazione:\t%.1f\n"
+"Fattore di taglio:\t%.1f\n"
 "Tipo:\t\t\t%s\n"
 "mounts:\t\t%s"
 
@@ -6722,12 +6728,9 @@ msgid "levels"
 msgstr "Livelli"
 
 #: ../src/iop/levels.c:570
-#, fuzzy
 msgid ""
 "drag handles to set black, gray, and white points. operates on L channel."
 msgstr ""
-"Trascina le maniglie per impostare i punti di nero, grigio e bianco. Operano "
-"sul canale L"
 
 #: ../src/iop/levels.c:584
 msgid "apply auto levels"
@@ -6771,7 +6774,7 @@ msgstr "fluidifica"
 
 #: ../src/iop/liquify.c:3236
 msgid "click and drag to add point"
-msgstr ""
+msgstr "clicca e trascina per aggiungere un punto"
 
 #: ../src/iop/liquify.c:3238
 msgid "click to add line"
@@ -6801,15 +6804,15 @@ msgstr ""
 
 #: ../src/iop/liquify.c:3295
 msgid "curve tool: draw curves"
-msgstr ""
+msgstr "Strumento curva: disegna curve"
 
 #: ../src/iop/liquify.c:3303
 msgid "line tool: draw lines"
-msgstr ""
+msgstr "Strumento linea: disegna linee"
 
 #: ../src/iop/liquify.c:3311
 msgid "point tool: draw points"
-msgstr ""
+msgstr "Strumento stampa: disegna punti"
 
 #: ../src/iop/liquify.c:3318
 msgid ""
@@ -6847,25 +6850,24 @@ msgid ""
 msgstr ""
 
 #: ../src/iop/liquify.c:3345
-#, fuzzy
 msgctxt "accel"
 msgid "point tool"
-msgstr "Punto"
+msgstr "Strumento stampa"
 
 #: ../src/iop/liquify.c:3346
 msgctxt "accel"
 msgid "line tool"
-msgstr ""
+msgstr "strumento linea"
 
 #: ../src/iop/liquify.c:3347
 msgctxt "accel"
 msgid "curve tool"
-msgstr ""
+msgstr "strumento curva"
 
 #: ../src/iop/liquify.c:3348
 msgctxt "accel"
 msgid "node tool"
-msgstr ""
+msgstr "strumento nodo"
 
 #: ../src/iop/lowlight.c:84
 msgid "lowlight vision"
@@ -7094,7 +7096,7 @@ msgstr ""
 
 #: ../src/iop/rawoverexposed.c:68
 msgid "raw overexposed"
-msgstr ""
+msgstr "raw sovraesposto"
 
 #: ../src/iop/rawprepare.c:46
 msgid "crop x"
@@ -7473,10 +7475,9 @@ msgid "temperature"
 msgstr "Temperatura"
 
 #: ../src/iop/temperature.c:200
-#, fuzzy
 msgctxt "accel"
 msgid "preset/camera"
-msgstr "Rimuovi copia locale"
+msgstr "preset/camera"
 
 # Non so se tradurlo come "Fotocamera neutrale"
 #: ../src/iop/temperature.c:201
@@ -7485,10 +7486,9 @@ msgid "preset/camera neutral"
 msgstr ""
 
 #: ../src/iop/temperature.c:202
-#, fuzzy
 msgctxt "accel"
 msgid "preset/spot"
-msgstr "Preset"
+msgstr "preset/punto"
 
 #: ../src/iop/temperature.c:737
 msgctxt "white balance"
@@ -7608,18 +7608,14 @@ msgstr "Manuale"
 
 #: ../src/iop/tonecurve.c:948
 msgid "automatic in XYZ"
-msgstr ""
+msgstr "automatico in XYZ"
 
 #: ../src/iop/tonecurve.c:950
-#, fuzzy
 msgid ""
 "if set to auto, a and b curves have no effect and are not displayed. chroma "
 "values (a and b) of each pixel are then adjusted based on L curve data. auto "
 "XYZ is similar but applies the saturation changes in XYZ space."
 msgstr ""
-"Se impostato su auto, le curve a e b non hanno alcun effetto e non vengono "
-"visualizzati. I valori di crominanza (a e b) di ciascun pixel vengono quindi "
-"regolati in base ai dati della curva L."
 
 #: ../src/iop/tonemap.cc:73
 msgid "tone mapping"
@@ -8127,13 +8123,15 @@ msgstr "Pulisci questa regola o aggiungine una nuova"
 
 #: ../src/libs/collect.c:1251
 msgid "type your query, use <, <=, >, >=, <>, =, [;] as operators"
-msgstr ""
+msgstr "Scrivi la tua query, usa <, <=, >, >=, <>, =, [;] come operatori"
 
 #: ../src/libs/collect.c:1256
 msgid ""
 "type your query, use <, <=, >, >=, <>, =, [;] as operators, type dates in "
 "the form : YYYY:MM:DD HH:MM:SS (only the year is mandatory)"
 msgstr ""
+"Scrivi la tua query, usa <, <=, >, >=, <>, =, [;] come operatori, scrivi le "
+"date nel formato : YYYY:MM:DD HH:MM:SS (solo l'anno è obbligatorio)"
 
 #: ../src/libs/collect.c:1262 ../src/libs/collect.c:1663
 #, no-c-format
@@ -8911,10 +8909,9 @@ msgid "toggle live view"
 msgstr "Passa alla visione reale"
 
 #: ../src/libs/live_view.c:166
-#, fuzzy
 msgctxt "accel"
 msgid "zoom live view"
-msgstr "Zoom visione reale"
+msgstr "zoom live view"
 
 #: ../src/libs/live_view.c:169
 msgctxt "accel"
@@ -9397,7 +9394,7 @@ msgstr "rawspeed"
 #: ../src/libs/metadata_view.c:391
 #, c-format
 msgid "loader: %s"
-msgstr ""
+msgstr "Caricatore: %s"
 
 #: ../src/libs/metadata_view.c:627
 msgctxt "accel"
@@ -9487,7 +9484,7 @@ msgstr "Prepara la stampa immagine %d su `%s'"
 #: ../src/libs/print_settings.c:284
 #, c-format
 msgid "cannot open printer profile `%s'"
-msgstr ""
+msgstr "Impossibile aprire il profilo stampante `%s'"
 
 #: ../src/libs/print_settings.c:295
 #, c-format
@@ -9582,7 +9579,7 @@ msgstr "Stampa"
 
 #: ../src/libs/print_settings.c:1349
 msgid "print with current settings"
-msgstr ""
+msgstr "Stampa con le impostazioni correnti"
 
 #: ../src/libs/print_settings.c:1808
 msgctxt "accel"
@@ -9832,7 +9829,7 @@ msgstr "Eliminare etichetta?"
 
 #: ../src/libs/tagging.c:353
 msgid "Select a keyword file"
-msgstr ""
+msgstr "Seleziona un file keyword"
 
 #: ../src/libs/tagging.c:356
 msgid "_import"
@@ -9840,16 +9837,16 @@ msgstr "_Importa"
 
 #: ../src/libs/tagging.c:367
 msgid "error importing tags"
-msgstr ""
+msgstr "Errore durante l'importazione delle tag"
 
 #: ../src/libs/tagging.c:369
 #, c-format
 msgid "%ld tags imported"
-msgstr ""
+msgstr "Importate tag %ld"
 
 #: ../src/libs/tagging.c:390
 msgid "Select file to export to"
-msgstr ""
+msgstr "Seleziona file da esportare"
 
 #: ../src/libs/tagging.c:393
 msgid "_export"
@@ -9862,7 +9859,7 @@ msgstr "Errore durante l'esportazione delle tag"
 #: ../src/libs/tagging.c:407
 #, c-format
 msgid "%ld tags exported"
-msgstr ""
+msgstr "Esportate tag %ld"
 
 #: ../src/libs/tagging.c:478
 msgid ""
@@ -9923,7 +9920,7 @@ msgstr "Importa "
 
 #: ../src/libs/tagging.c:551
 msgid "import tags from a Lightroom keyword file"
-msgstr ""
+msgstr "Importa tags da un keyword file di Lightroom"
 
 #: ../src/libs/tagging.c:555
 msgctxt "verb"
@@ -9932,7 +9929,7 @@ msgstr "Esporta"
 
 #: ../src/libs/tagging.c:557
 msgid "export all tags to a Lightroom keyword file"
-msgstr ""
+msgstr "Esporta tutte le tag in un file keyword di Lightroom"
 
 #: ../src/libs/tools/colorlabels.c:40
 msgid "colorlabels"
@@ -9940,49 +9937,34 @@ msgstr "Etichette colore"
 
 #. setup list of tooltips
 #: ../src/libs/tools/colorlabels.c:70
-#, fuzzy
 msgid ""
 "toggle red label\n"
 "of selected images"
-msgstr ""
-"Segna con etichetta\n"
-" rossa le immagini selezionate (F1)"
+msgstr "Attiva etichetta rossa delle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:71
-#, fuzzy
 msgid ""
 "toggle yellow label\n"
 "of selected images"
-msgstr ""
-"Segna con etichetta\n"
-" gialla le immagini selezionate (F2)"
+msgstr "Attiva etichetta gialla delle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:72
-#, fuzzy
 msgid ""
 "toggle green label\n"
 "of selected images"
-msgstr ""
-"Segna con etichetta\n"
-" verde le immagini selezionate (F3)"
+msgstr "Attiva etichetta verde delle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:73
-#, fuzzy
 msgid ""
 "toggle blue label\n"
 "of selected images"
-msgstr ""
-"Segna con etichetta\n"
-" blu le immagini selezionate (F4)"
+msgstr "Attiva etichetta blu delle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:74
-#, fuzzy
 msgid ""
 "toggle purple label\n"
 "of selected images"
-msgstr ""
-"Segna con etichetta\n"
-" viola le immagini selezionate (F5)"
+msgstr "Attiva etichetta viola delle immagini selezionate"
 
 #: ../src/libs/tools/colorlabels.c:75
 msgid "clear all labels of selected images"
@@ -10017,7 +9999,7 @@ msgstr "Viola"
 #: ../src/libs/tools/colorlabels.c:111
 msgctxt "accel"
 msgid "clear color labels"
-msgstr ""
+msgstr "Pulisci le etichette colore"
 
 #: ../src/libs/tools/darktable.c:56
 msgid "darktable"
@@ -10300,11 +10282,11 @@ msgstr ""
 
 #: ../src/views/darkroom.c:1548
 msgid "mark with CFA color"
-msgstr ""
+msgstr "Marca con colore CFA"
 
 #: ../src/views/darkroom.c:1549
 msgid "mark with solid color"
-msgstr ""
+msgstr "Marca con solido di colore"
 
 #: ../src/views/darkroom.c:1550
 msgid "false color"
@@ -10312,7 +10294,7 @@ msgstr "Falso colore"
 
 #: ../src/views/darkroom.c:1552
 msgid "select how to mark the clipped pixels"
-msgstr ""
+msgstr "Seleziona come marcare i pixel tagliati"
 
 #: ../src/views/darkroom.c:1559 ../src/views/darkroom.c:1629
 msgid "color scheme"
@@ -10350,6 +10332,9 @@ msgid ""
 "1.0 - white level\n"
 "0.0 - black level"
 msgstr ""
+"Soglia di cosa dovrebbe essere considerato sovraesposto\n"
+"1.0 - livello di bianco\n"
+"0.0 - livello di nero"
 
 #: ../src/views/darkroom.c:1588
 msgid ""
