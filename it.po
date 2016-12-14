@@ -12,6 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: src\n"
+"X-Poedit-SearchPath-0: .\n"
 
 #: ../build/src/preferences_gen.h:1460
 msgid "GUI options"
@@ -514,7 +516,7 @@ msgstr ""
 "verranno mai più cancellate. Tuttavia, se si vuole è possibile cancellarle "
 "manualmente. Le prestazioni della modalità Tavolo Luminoso verranno "
 "incrementate notevolmente durante la navigazione. Per generare tutte le "
-"anteprime dell'intera collezione, eseguire il comando 'darktable-generate-"
+"anteprime dell'intera raccolta, eseguire il comando 'darktable-generate-"
 "cache'."
 
 #: ../build/src/preferences_gen.h:2327
@@ -598,7 +600,7 @@ msgstr "Archivia i tag xmp in formato compresso"
 #: ../build/src/preferences_gen.h:2466 ../build/src/preferences_gen.h:2481
 msgctxt "preferences"
 msgid "only large entries"
-msgstr "solo quelli grandi"
+msgstr "Solo quelli grandi"
 
 #: ../build/src/preferences_gen.h:2484
 msgid ""
@@ -655,7 +657,7 @@ msgstr ""
 #: ../build/src/preferences_gen.h:2563
 msgctxt "preferences"
 msgid "always bilinear (fast)"
-msgstr "sempre bilineare (veloce)"
+msgstr "Sempre bilineare (veloce)"
 
 #: ../build/src/preferences_gen.h:2568 ../build/src/preferences_gen.h:2588
 msgctxt "preferences"
@@ -2612,6 +2614,7 @@ msgstr "Impossibile creare cartella '%s'!\n"
 #, c-format
 msgid "warning: no images are matching the requested image id range\n"
 msgstr ""
+"Attenzione: nessuna immagine corrisponde all'intervallo di id richiesto\n"
 
 #: ../src/generate-cache/main.c:77
 #, c-format
@@ -2966,7 +2969,7 @@ msgstr "$(CREATOR) - creatore dai metadata"
 
 #: ../src/gui/gtkentry.c:214
 msgid "$(PUBLISHER) - publisher from metadata"
-msgstr ""
+msgstr "$(PUBLISHER) - editore dai metadata"
 
 #: ../src/gui/gtkentry.c:215
 msgid "$(RIGHTS) - rights from metadata"
@@ -4157,7 +4160,7 @@ msgstr "Cambia lente (o)"
 #: ../src/iop/ashift.c:512
 msgctxt "accel"
 msgid "shear"
-msgstr "cesoia"
+msgstr ""
 
 #: ../src/iop/ashift.c:2498
 msgid "automatic cropping failed"
@@ -4182,6 +4185,8 @@ msgstr ""
 #: ../src/iop/ashift.c:2594
 msgid "automatic correction failed, please correct manually"
 msgstr ""
+"Correzione automatica fallita, per favore effettuare la correzione "
+"manualmente"
 
 #: ../src/iop/ashift.c:4173 ../src/iop/ashift.c:4174 ../src/iop/ashift.c:4273
 #: ../src/iop/ashift.c:4274
@@ -4261,7 +4266,7 @@ msgstr "Regolazione aspetto"
 
 #: ../src/iop/ashift.c:4448
 msgid "automatic fit"
-msgstr ""
+msgstr "Adatta automaticamente"
 
 #: ../src/iop/ashift.c:4467
 msgid "get structure"
@@ -4348,11 +4353,11 @@ msgstr ""
 
 #: ../src/iop/ashift.c:4544
 msgid "remove line structure information"
-msgstr ""
+msgstr "Rimuove le informazioni della linea di struttura"
 
 #: ../src/iop/ashift.c:4545
 msgid "toggle visibility of structure lines"
-msgstr ""
+msgstr "Attiva la visione delle linee di struttura"
 
 #: ../src/iop/atrous.c:115
 msgid "equalizer"
@@ -6717,11 +6722,11 @@ msgstr "TCA Blu"
 
 #: ../src/iop/lens.c:2211
 msgid "corrections done: "
-msgstr "Correzioni fatte:"
+msgstr "Correzioni eseguite:"
 
 #: ../src/iop/lens.c:2212
 msgid "which corrections have actually been done"
-msgstr "Quali correzioni sono state effettivamente fatte"
+msgstr "Quali correzioni sono state effettivamente eseguite"
 
 #: ../src/iop/levels.c:116
 msgid "levels"
@@ -8307,6 +8312,8 @@ msgid ""
 "copy history stack of\n"
 "first selected image"
 msgstr ""
+"Copia lo stack della cronologia\n"
+"della prima immagine selezionata"
 
 #: ../src/libs/copy_history.c:254
 msgid "discard"
@@ -8329,6 +8336,8 @@ msgid ""
 "paste part history stack to\n"
 "all selected images"
 msgstr ""
+"Incolla parte dello stack della cronologia passata\n"
+"su tutte le immagini selezionate"
 
 #: ../src/libs/copy_history.c:268
 msgid "paste all"
@@ -8339,6 +8348,8 @@ msgid ""
 "paste history stack to\n"
 "all selected images"
 msgstr ""
+"Incolla lo stack della cronologia passata\n"
+"su tutte le immagini selezionate"
 
 #: ../src/libs/copy_history.c:276
 msgid "append"
@@ -9539,6 +9550,10 @@ msgid ""
 " > 1 means that the image is upscaled\n"
 " a too large value may result in poor print quality"
 msgstr ""
+"Fattore di scala dell'immagine dai DPI nativi della stampante:\n"
+" < 1 significa che è stato effettuato un downscale (qualità migliore)\n"
+" > 1 significa che è stato effettuato un upscale\n"
+"un valore troppo alto può portare ad una qualità di stampa scadente"
 
 #. d->b_top  = gtk_spin_button_new_with_range(0, 10000, 1);
 #: ../src/libs/print_settings.c:1155
@@ -9629,6 +9644,8 @@ msgid ""
 "select unselected images\n"
 "in current collection"
 msgstr ""
+"Seleziona le immagini non selezionate\n"
+"nella raccolta corrente"
 
 #: ../src/libs/select.c:122
 msgid "select film roll"
@@ -10019,7 +10036,7 @@ msgstr "* Contributori *"
 
 #: ../src/libs/tools/darktable.c:310
 msgid "And all those of you that made previous releases possible"
-msgstr ""
+msgstr "E tutti voi che avete reso possibile la precedente release"
 
 #: ../src/libs/tools/darktable.c:313
 msgid "translator-credits"
@@ -10279,6 +10296,8 @@ msgid ""
 "toggle raw over exposed indication\n"
 "right click for options"
 msgstr ""
+"Attiva l'indicatore di sovraesposizione raw\n"
+"click destro per ulteriori opzioni"
 
 #: ../src/views/darkroom.c:1548
 msgid "mark with CFA color"
